@@ -1,0 +1,7 @@
+image: gohugoio/hugo
+
+build-site:
+    script:
+    artifacts:
+        paths: 
+            - website
