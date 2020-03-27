@@ -1,18 +1,24 @@
 languageCode = "en-us"
-title = "Prologue"
+title = "Kine's Art"
 baseurl = "http://example.org/"
 theme = "prologue"
 
 [params]
-  name = "Jane Doe"
-  description = "Hyperspace Engineer"
+  name = "Kristine Linnea"
+  description = "Traditional Artist"
   maintainerURL = "https://bredley.co.uk/"
   maintainer = "Bradley Garrod"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/kristinelinneahl/"
 
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
   link = "https://twitter.com/Unicornowlkine"
+
 
 [[params.social]]
   medium = "twitch"
