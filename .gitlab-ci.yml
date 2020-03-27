@@ -1,0 +1,8 @@
+image: registry.gitlab.com/bred1810/kines-portfolio/hugo
+
+build-website:
+    script:
+        - hugo
+    artifacts:
+        paths:
+            - public
