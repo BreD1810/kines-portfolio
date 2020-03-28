@@ -150,3 +150,12 @@ theme = "prologue"
   size = "A2"
   medium = "Pencil"
   year = "2017"
+
+[[params.portfolio3]]
+  name = "A Pinch of Springtime"
+  alt = "A miniature painting of Bob Ross' \"Hint of Springtime\""
+  source = "img/pinch-of-springtime.jpg"
+  id = "springtime"
+  size = "9cm &times; 7cm"
+  medium = "Acrylic"
+  year = "2018"
