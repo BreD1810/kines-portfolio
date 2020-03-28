@@ -38,13 +38,22 @@ theme = "prologue"
   year = "2020"
 
 [[params.portfolio1]]
-  title = "\"Brother Bear\" - Guoache - 2018"
+  title = "\"Brother Bear\" - Gouache - 2018"
   alt = "A painting of Koda and Kenai looking at the Northern Lights."
   source = "img/brotherbear.jpg"
-  id = "bb"
+  id = "brotherBear"
   size = "35.5cm &times; 25cm"
-  medium = "Guoache"
+  medium = "Gouache"
   year = "2018"
+
+[[params.portfolio1]]
+  title = "\"Evening Stroll\" - Gouache - 2020"
+  alt = "A painting of Koda and Kenai looking at the Northern Lights."
+  source = "img/evening-stroll.jpg"
+  id = "eveningStroll"
+  size = "20.5cm &times; 13cm"
+  medium = "Gouache"
+  year = "2020"
 
 # Portfolio column two
 
@@ -88,10 +97,10 @@ theme = "prologue"
   year = "2018"
 
 [[params.portfolio3]]
-  title = "\"Autumn Afternoon\" - Guoache - 2019"
+  title = "\"Autumn Afternoon\" - Gouache - 2019"
   alt = "A painting of an autumn scene with a river running through the middle."
   source = "img/autumn-afternoon.jpg"
   id = "autumnAfternoon"
-  size = "35.5cm &times; 25cm"
-  medium = "Guoache"
+  size = "20.5cm &times; 13cm"
+  medium = "Gouache"
   year = "2019"
