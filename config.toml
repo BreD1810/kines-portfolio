@@ -29,7 +29,7 @@ theme = "prologue"
 # Portfolio column one
 
 [[params.portfolio1]]
-  title = "\"Lord of the Rings\" - Acrylic - 2020"
+  name = "Lord of the Rings"
   alt = "A painting of Gandalf and Frodo overlooking Rivendell."
   source = "img/lotr.jpg"
   id = "lotr"
@@ -38,7 +38,7 @@ theme = "prologue"
   year = "2020"
 
 [[params.portfolio1]]
-  title = "\"Brother Bear\" - Gouache - 2018"
+  name = "Brother Bear"
   alt = "A painting of Koda and Kenai looking at the Northern Lights."
   source = "img/brotherbear.jpg"
   id = "brotherBear"
@@ -47,7 +47,7 @@ theme = "prologue"
   year = "2018"
 
 [[params.portfolio1]]
-  title = "\"Evening Stroll\" - Gouache - 2020"
+  name = "Evening Stroll"
   alt = "A painting of Koda and Kenai looking at the Northern Lights."
   source = "img/evening-stroll.jpg"
   id = "eveningStroll"
@@ -56,7 +56,7 @@ theme = "prologue"
   year = "2020"
 
 [[params.portfolio1]]
-  title = "\"Peeking Mountain\" - Gouache - 2020"
+  name = "Peeking Mountain"
   alt = "A mountain top peeking through the trees."
   source = "img/peeking-mountain.jpg"
   id = "peekingMountain"
@@ -65,7 +65,7 @@ theme = "prologue"
   year = "2020"
 
 [[params.portfolio1]]
-  title = "\"Tropical Gaze\" - Watercolour - 2016"
+  name = "Tropical Gaze"
   alt = "A mountain top peaking through the trees."
   source = "img/tropical-gaze.jpg"
   id = "tropicalGaze"
@@ -77,7 +77,7 @@ theme = "prologue"
 # Portfolio column two
 
 [[params.portfolio2]]
-  title = "\"Happy Panda\" - Acrylic - 2020"
+  name = "Happy Panda"
   alt = "A painting of a Panda eating bamboo."
   source = "img/panda.jpg"
   id = "panda"
@@ -86,7 +86,7 @@ theme = "prologue"
   year = "2020"
 
 [[params.portfolio2]]
-  title = "\"Lightly Dusted\" - Watercolour - 2017"
+  name = "Lightly Dusted"
   alt = "A painting pinecone lightly dusted with snow."
   source = "img/lightly-dusted.jpg"
   id = "lightlyDusted"
@@ -95,7 +95,7 @@ theme = "prologue"
   year = "2017"
 
 [[params.portfolio2]]
-  title = "\"Scar\" - Acrylic - 2019"
+  name = "Scar"
   alt = "A painting of Scar from The Lion King."
   source = "img/scar.jpg"
   id = "scar"
@@ -104,7 +104,7 @@ theme = "prologue"
   year = "2019"
 
 [[params.portfolio2]]
-  title = "\"Lonely Boat\" - Acrylic - 2018"
+  name = "Lonely Boat"
   alt = "A painting sail boat."
   source = "img/lonely-boat.jpg"
   id = "lonelyBoat"
@@ -116,7 +116,7 @@ theme = "prologue"
 # Portfolio column 3
 
 [[params.portfolio3]]
-  title = "\"Neuschwanstein\" - Acrylic - 2019"
+  name = "Neuschwanstein"
   alt = "A painting of the Neuschwanstein castle, with a sunset in the background."
   source = "img/neuschwanstein.jpg"
   id = "neuschwanstein"
@@ -125,7 +125,7 @@ theme = "prologue"
   year = "2018"
 
 [[params.portfolio3]]
-  title = "\"Alpine Lake\" - Acrylic - 2018"
+  name = "Alpine Lake"
   alt = "A painting of Alpine Lake."
   source = "img/alpinelake.jpg"
   id = "alpineLake"
@@ -134,7 +134,7 @@ theme = "prologue"
   year = "2018"
 
 [[params.portfolio3]]
-  title = "\"Autumn Afternoon\" - Gouache - 2019"
+  name = "Autumn Afternoon"
   alt = "A painting of an autumn scene with a river running through the middle."
   source = "img/autumn-afternoon.jpg"
   id = "autumnAfternoon"
@@ -143,7 +143,7 @@ theme = "prologue"
   year = "2019"
 
 [[params.portfolio3]]
-  title = "\"Sculpture\" - Pencil - 2017"
+  name = "Sculpture"
   alt = "A pencil sketch of a sculpture."
   source = "img/sculpture.jpg"
   id = "sculpture"
