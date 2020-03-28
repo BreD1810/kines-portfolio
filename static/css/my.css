@@ -95,3 +95,8 @@ header {
 #header .icons a:hover {
     color: #e27689;
 }
+
+/*Pink Name*/
+#logo h1 {
+    color: #e27689;
+}
