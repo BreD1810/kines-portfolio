@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Kine's Art"
-baseurl = "https://loki.bredley.co.uk/"
+baseurl = "https://kinesart.com"
 theme = "prologue"
 
 [params]
