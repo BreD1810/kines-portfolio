@@ -34,6 +34,9 @@ theme = "prologue"
   source = "img/lotr.jpg"
   url = ""
   id = "img1"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2020"
 
 [[params.portfolio1]]
   title = "Rhoncus Semper"
