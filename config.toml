@@ -72,7 +72,10 @@ theme = "prologue"
   url = "#"
 
 [[params.portfolio3]]
-  title = "Orci Convallis"
+  title = "\"Alpine Lake\" - Acrylic - 2018"
   alt = ""
-  source = "img/pic07.jpg"
-  url = "#"
+  source = "img/alpinelake.jpg"
+  id = "alpineLake"
+  size = "35.5cm &times; 25cm"
+  medium = "Acrylic"
+  year = "2018"
