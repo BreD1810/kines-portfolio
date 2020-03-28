@@ -113,3 +113,12 @@ theme = "prologue"
   size = "20.5cm &times; 13cm"
   medium = "Gouache"
   year = "2019"
+
+[[params.portfolio3]]
+  title = "\"Sculpture\" - Pencil - 2017"
+  alt = "A pencil sketch of a sculpture."
+  source = "img/sculpture.jpg"
+  id = "sculpture"
+  size = "A2"
+  medium = "Pencil"
+  year = "2017"
