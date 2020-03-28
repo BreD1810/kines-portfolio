@@ -57,23 +57,30 @@ theme = "prologue"
   medium = "Acrylic"
   year = "2020"
 
-#[[params.portfolio2]]
-#  title = "Natoque Vitae"
-#  alt = ""
-#  source = "img/pic05.jpg"
-#  url = "#"
+[[params.portfolio2]]
+  title = "\"Scar\" - Acrylic - 2019"
+  alt = "A painting of Scar from The Lion King."
+  source = "img/scar.jpg"
+  id = "scar"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2019"
+
 
 # Portfolio column 3
 
 [[params.portfolio3]]
-  title = "Dolor Penatibus"
-  alt = ""
-  source = "img/pic06.jpg"
-  url = "#"
+  title = "\"Neuschwanstein\" - Acrylic - 2019"
+  alt = "A painting of the Neuschwanstein castle, with a sunset in the background."
+  source = "img/neuschwanstein.jpg"
+  id = "neuschwanstein"
+  size = "35.5cm &times; 25cm"
+  medium = "Acrylic"
+  year = "2018"
 
 [[params.portfolio3]]
   title = "\"Alpine Lake\" - Acrylic - 2018"
-  alt = ""
+  alt = "A painting of Alpine Lake."
   source = "img/alpinelake.jpg"
   id = "alpineLake"
   size = "35.5cm &times; 25cm"
