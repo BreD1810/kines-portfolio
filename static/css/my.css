@@ -90,3 +90,8 @@ header {
     border-radius: 20px;
     box-shadow: 0.25em 0.25em 0.15em 0 rgba(0, 0, 0, 0.05);
 }
+
+/* Pink fade on social icons */
+#header .icons a:hover {
+    color: #e27689;
+}
