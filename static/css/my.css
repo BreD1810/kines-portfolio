@@ -100,3 +100,33 @@ header {
 #logo h1 {
     color: #e27689;
 }
+
+/* Pink selected Nav entries */
+#nav ul li a.active {
+    color: #e27689;
+}
+
+/* Pink Button */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button  {
+    background-color: #e27689;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover,
+.button:hover {
+    background-color: #e98b9c;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+button:active,
+.button:active {
+    background-color: #b46372;
+}
