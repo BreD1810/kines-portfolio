@@ -30,34 +30,36 @@ theme = "prologue"
 
 [[params.portfolio1]]
   title = "Lord of the Rings"
-  alt = ""
+  alt = "A painting of Gandalf and Frodo overlooking Rivendell."
   source = "img/lotr.jpg"
-  url = ""
-  id = "img1"
+  id = "lotr"
   size = "A3"
   medium = "Acrylic"
   year = "2020"
 
-[[params.portfolio1]]
-  title = "Rhoncus Semper"
-  alt = ""
-  source = "img/pic03.jpg"
-  url = "#"
-  id = "img2"
+#[[params.portfolio1]]
+#  title = "Rhoncus Semper"
+#  alt = ""
+#  source = "img/pic03.jpg"
+#  url = "#"
+#  id = "img2"
 
 # Portfolio column two
 
 [[params.portfolio2]]
-  title = "Magna Nullam"
-  alt = ""
-  source = "img/pic04.jpg"
-  url = "#"
+  title = "Panda"
+  alt = "A painting of a Panda eating bamboo."
+  source = "img/panda.jpg"
+  id = "panda"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2020"
 
-[[params.portfolio2]]
-  title = "Natoque Vitae"
-  alt = ""
-  source = "img/pic05.jpg"
-  url = "#"
+#[[params.portfolio2]]
+#  title = "Natoque Vitae"
+#  alt = ""
+#  source = "img/pic05.jpg"
+#  url = "#"
 
 # Portfolio column 3
 

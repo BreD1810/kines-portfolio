@@ -111,6 +111,7 @@
                       <h3>{{ .title }}</h3>
                     </header>
 				  </article>
+
 				  <div id="{{ .id }}Modal" class="modal">
 					<img class="modal-content" id="{{ .id }}ModalImg" />
 					<div id="{{ .id }}Caption" class="caption"></div>
@@ -137,11 +138,32 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio2 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
-                  </article>
+				  </article>
+				  
+				  <div id="{{ .id }}Modal" class="modal">
+					<img class="modal-content" id="{{ .id }}ModalImg" />
+					<div id="{{ .id }}Caption" class="caption"></div>
+				  </div>
+				
+				  <script>
+					var modal = document.getElementById("{{ .id }}Modal");
+					var img = document.getElementById("{{ .id }}");
+					var modalImg = document.getElementById("{{ .id }}ModalImg");
+					var captionText = document.getElementById("{{ .id }}Caption");
+					img.onclick = function() {
+						modal.style.display = "block";
+						modalImg.src = this.src;
+						captionText.innerHTML = "Size: {{ .size }} <br> Medium: {{ .medium }} <br> Year: {{ .year }}";
+					}
+					modal.onclick = function() {
+						modal.style.display = "none";
+					}
+				  </script>
+
                   {{ end }}
                 </div>
 
