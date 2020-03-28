@@ -104,6 +104,15 @@ theme = "prologue"
   year = "2019"
 
 [[params.portfolio2]]
+  name = "Handsome Jack"
+  alt = "A painting of Handsome Jack from the Borderlands series."
+  source = "img/handsome-jack.jpg"
+  id = "handsomeJack"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2019"
+
+[[params.portfolio2]]
   name = "Lonely Boat"
   alt = "A painting sail boat."
   source = "img/lonely-boat.jpg"
