@@ -55,6 +55,25 @@ theme = "prologue"
   medium = "Gouache"
   year = "2020"
 
+[[params.portfolio1]]
+  title = "\"Peeking Mountain\" - Gouache - 2020"
+  alt = "A mountain top peeking through the trees."
+  source = "img/peeking-mountain.jpg"
+  id = "peekingMountain"
+  size = "20.5cm &times; 13cm"
+  medium = "Gouache"
+  year = "2020"
+
+[[params.portfolio1]]
+  title = "\"Tropical Gaze\" - Watercolour - 2016"
+  alt = "A mountain top peaking through the trees."
+  source = "img/tropical-gaze.jpg"
+  id = "tropicalGaze"
+  size = "20.5cm &times; 13cm"
+  medium = "Watercolour"
+  year = "2016"
+
+
 # Portfolio column two
 
 [[params.portfolio2]]
@@ -65,6 +84,15 @@ theme = "prologue"
   size = "A3"
   medium = "Acrylic"
   year = "2020"
+
+[[params.portfolio2]]
+  title = "\"Lightly Dusted\" - Watercolour - 2017"
+  alt = "A painting pinecone lightly dusted with snow."
+  source = "img/lightly-dusted.jpg"
+  id = "lightlyDusted"
+  size = "A4"
+  medium = "Watercolour"
+  year = "2017"
 
 [[params.portfolio2]]
   title = "\"Scar\" - Acrylic - 2019"
