@@ -29,16 +29,18 @@ theme = "prologue"
 # Portfolio column one
 
 [[params.portfolio1]]
-  title = "Ipsum Feugiat"
+  title = "Lord of the Rings"
   alt = ""
-  source = "img/pic02.jpg"
-  url = "#"
+  source = "img/lotr.jpg"
+  url = ""
+  id = "img1"
 
 [[params.portfolio1]]
   title = "Rhoncus Semper"
   alt = ""
   source = "img/pic03.jpg"
   url = "#"
+  id = "img2"
 
 # Portfolio column two
 

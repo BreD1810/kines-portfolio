@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/my.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
 	</head>
@@ -81,7 +82,7 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="#portfolio" class="button scrolly">View My Portfolio</a>
 							</footer>
 
 						</div>
@@ -105,13 +106,38 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio1 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
                   </article>
                   {{ end }}
-                </div>
+				</div>
+				
+				<div id="myModal" class="modal">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="img01" />
+					<div id="caption"></div>
+				</div>
+  
+				<script>
+					var modal = document.getElementById("myModal");
+					var img = document.getElementById("img1");
+					var modalImg = document.getElementById("img01");
+					var captionText = document.getElementById("caption");
+					img.onclick = function() {
+						modal.style.display = "block";
+						modalImg.src = this.src;
+						captionText.innerHTML = "Some text here";
+					}
+					var span = document.getElementsByClassName("close")[0];
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+					modal.onclick = function() {
+						modal.style.display = "none";
+					}
+				</script>
 
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio2 }} 
@@ -136,7 +162,7 @@
                 </div>
               </div>
 
-
+			
 						</div>
 					</section>
 
