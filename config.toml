@@ -37,12 +37,14 @@ theme = "prologue"
   medium = "Acrylic"
   year = "2020"
 
-#[[params.portfolio1]]
-#  title = "Rhoncus Semper"
-#  alt = ""
-#  source = "img/pic03.jpg"
-#  url = "#"
-#  id = "img2"
+[[params.portfolio1]]
+  title = "Brother Bear"
+  alt = "A painting of Koda and Kenai looking at the Northern Lights."
+  source = "img/brotherbear.jpg"
+  id = "bb"
+  size = "35.5cm &times; 25cm"
+  medium = "Guoache"
+  year = "2018"
 
 # Portfolio column two
 
