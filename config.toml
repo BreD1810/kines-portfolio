@@ -75,6 +75,15 @@ theme = "prologue"
   medium = "Acrylic"
   year = "2019"
 
+[[params.portfolio2]]
+  title = "\"Lonely Boat\" - Acrylic - 2018"
+  alt = "A painting sail boat."
+  source = "img/lonely-boat.jpg"
+  id = "lonelyBoat"
+  size = "A4"
+  medium = "Acrylic"
+  year = "2018"
+
 
 # Portfolio column 3
 
