@@ -12,3 +12,24 @@ hugo.darwin
 hugo.linux
 
 # End of https://www.gitignore.io/api/hugo
+# Created by https://www.gitignore.io/api/hugo,code
+# Edit at https://www.gitignore.io/?templates=hugo,code
+
+### Code ###
+.vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# End of https://www.gitignore.io/api/hugo,code
