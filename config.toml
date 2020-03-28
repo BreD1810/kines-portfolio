@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Kine's Art"
-baseurl = "http://example.org/"
+baseurl = "https://loki.bredley.co.uk/"
 theme = "prologue"
 
 [params]
@@ -86,3 +86,12 @@ theme = "prologue"
   size = "35.5cm &times; 25cm"
   medium = "Acrylic"
   year = "2018"
+
+[[params.portfolio3]]
+  title = "\"Autumn Afternoon\" - Guoache - 2019"
+  alt = "A painting of an autumn scene with a river running through the middle."
+  source = "img/autumn-afternoon.jpg"
+  id = "autumnAfternoon"
+  size = "35.5cm &times; 25cm"
+  medium = "Guoache"
+  year = "2019"
