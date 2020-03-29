@@ -1,7 +1,9 @@
-languageCode = "en-us"
+languageCode = "en"
+defaultcontentlanguage = "en"
 title = "Kine's Art"
 baseurl = "https://kinesart.com"
 theme = "prologue"
+canonifyURLs = true
 
 [params]
   name = "Kristine Linnea"
