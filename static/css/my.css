@@ -84,6 +84,12 @@ header {
     box-shadow: 0.25em 0.25em 0.15em 0 rgba(0, 0, 0, 0.05);
     margin-bottom: 40px;
     border-radius: 20px;
+    transition: transform .5s;
+}
+
+/* Increase when you hover over a portfolio item */
+.item:hover {
+    transform: scale(1.05)
 }
 
 #aboutImg {
