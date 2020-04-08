@@ -1,9 +1,9 @@
 /* Avatar */
-.image .avatar48 {
+.image.avatar48 {
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    background: #f00;
+    background: none;
 }
 .image.avatar48 img {
     width: 60px;
