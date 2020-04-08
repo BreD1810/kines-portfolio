@@ -12,6 +12,11 @@ canonifyURLs = true
   maintainer = "Bradley Garrod"
 
 [[params.social]]
+  medium = "youtube"
+  icon = "youtube"
+  link = "https://www.youtube.com/playlist?list=PLV_HbQSACXpI99Yhv0-ir8zz0L89Q8eEK"
+
+[[params.social]]
   medium = "instagram"
   icon = "instagram"
   link = "https://www.instagram.com/kristinelinneahl/"
