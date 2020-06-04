@@ -168,6 +168,15 @@ canonifyURLs = true
   year = "2019"
 
 [[params.portfolio3]]
+  name = "Strutting Stallion"
+  alt = "A painting of a horse in a field."
+  source = "img/strutting-stallion.jpg"
+  id = "struttingStallion"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2020"
+
+[[params.portfolio3]]
   name = "Sculpture"
   alt = "A pencil sketch of a sculpture."
   source = "img/sculpture.jpg"
