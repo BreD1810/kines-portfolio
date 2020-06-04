@@ -63,6 +63,15 @@ canonifyURLs = true
   year = "2020"
 
 [[params.portfolio1]]
+  name = "Evening Breeze"
+  alt = "A painting of a Dutch coastline, featuring a windmill."
+  source = "img/evening-breeze.jpg"
+  id = "eveningBreeze"
+  size = "30Cm &times; 30cm"
+  medium = "Acrylic"
+  year = "2020"
+
+[[params.portfolio1]]
   name = "Peeking Mountain"
   alt = "A mountain top peeking through the trees."
   source = "img/peeking-mountain.jpg"
