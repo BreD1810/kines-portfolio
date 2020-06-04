@@ -112,7 +112,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio1 }} 
                   <article class="item">
-                    <a class="image fit clickable"><img src="{{ .source }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
+                    <a class="image fit clickable"><img src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
                     <header>
                       <h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
                     </header>
@@ -130,7 +130,7 @@
 					var captionText = document.getElementById("{{ .id }}Caption");
 					img.onclick = function() {
 						modal.style.display = "block";
-						modalImg.src = this.src;
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
 						captionText.innerHTML = "\"{{ .name }}\" <br> Size: {{ .size }} <br> Medium: {{ .medium }} <br> Year: {{ .year }}";
 					}
 					modal.onclick = function() {
@@ -144,7 +144,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio2 }} 
                   <article class="item">
-                    <a class="image fit clickable"><img src="{{ .source }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
+                    <a class="image fit clickable"><img src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
                     <header>
 						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
                     </header>
@@ -162,7 +162,7 @@
 					var captionText = document.getElementById("{{ .id }}Caption");
 					img.onclick = function() {
 						modal.style.display = "block";
-						modalImg.src = this.src;
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
 						captionText.innerHTML = "\"{{ .name }}\" <br> Size: {{ .size }} <br> Medium: {{ .medium }} <br> Year: {{ .year }}";
 					}
 					modal.onclick = function() {
@@ -176,7 +176,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.portfolio3 }} 
                   <article class="item">
-                    <a class="image fit clickable"><img src="{{ .source }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
+                    <a class="image fit clickable"><img src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}" alt="{{ .alt }}" id="{{ .id }}" /></a>
                     <header>
 						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
                     </header>
@@ -194,7 +194,7 @@
 					var captionText = document.getElementById("{{ .id }}Caption");
 					img.onclick = function() {
 						modal.style.display = "block";
-						modalImg.src = this.src;
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
 						captionText.innerHTML = "\"{{ .name }}\" <br> Size: {{ .size }} <br> Medium: {{ .medium }} <br> Year: {{ .year }}";
 					}
 					modal.onclick = function() {
