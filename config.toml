@@ -137,6 +137,15 @@ canonifyURLs = true
   medium = "Acrylic"
   year = "2018"
 
+[[params.portfolio2]]
+  name = "Kraken's Cave"
+  alt = "A painting of a Kraken in a cave."
+  source = "img/krakens-cave.jpg"
+  id = "krakensCave"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2020"
+
 
 # Portfolio column 3
 
