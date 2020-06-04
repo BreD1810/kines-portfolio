@@ -118,11 +118,13 @@
                     </header>
 				  </article>
 
+
 				  <div id="{{ .id }}Modal" class="modal">
 					<img class="modal-content" id="{{ .id }}ModalImg" />
 					<div id="{{ .id }}Caption" class="caption"></div>
 				  </div>
 				
+
 				  <script>
 					var modal = document.getElementById("{{ .id }}Modal");
 					var img = document.getElementById("{{ .id }}");
@@ -135,6 +137,8 @@
 					}
 					modal.onclick = function() {
 						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
 					}
 				  </script>
                   {{ end }}
@@ -167,6 +171,8 @@
 					}
 					modal.onclick = function() {
 						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
 					}
 				  </script>
 
@@ -199,6 +205,8 @@
 					}
 					modal.onclick = function() {
 						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
 					}
 				  </script>
 
