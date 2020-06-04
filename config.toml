@@ -48,6 +48,16 @@ canonifyURLs = true
   year = "2020"
 
 [[params.portfolio1]]
+  name = "Magical Mushroom"
+  alt = "A painting of a mushroom in a forest."
+  filename = "magical-mushroom"
+  extension = "jpg"
+  id = "magicalMushroom"
+  size = "13cm &times; 20.5cm"
+  medium = "Gouache"
+  year = "2020"
+
+[[params.portfolio1]]
   name = "Brother Bear"
   alt = "A painting of Koda and Kenai looking at the Northern Lights."
   filename = "brother-bear"
@@ -89,13 +99,33 @@ canonifyURLs = true
 
 [[params.portfolio1]]
   name = "Tropical Gaze"
-  alt = "A mountain top peaking through the trees."
+  alt = "A painting of a mountain top peaking through the trees."
   filename = "tropical-gaze"
   extension = "jpg"
   id = "tropicalGaze"
   size = "20.5cm &times; 13cm"
   medium = "Watercolour"
   year = "2016"
+
+[[params.portfolio1]]
+  name = "Misty Mountains"
+  alt = "A painting of a sunset with big clouds and distant mountains."
+  filename = "misty-mountains"
+  extension = "jpg"
+  id = "mistyMountains"
+  size = "17cm &times; 25.5cm"
+  medium = "Gouache"
+  year = "2020"
+
+[[params.portfolio1]]
+  name = "Sunny Days"
+  alt = "A painting of an Australian beach with palm trees."
+  filename = "sunny-days"
+  extension = "jpg"
+  id = "sunnyDays"
+  size = "13cm &times; 20.5cm"
+  medium = "Gouache"
+  year = "2020"
 
 
 # Portfolio column two
@@ -119,6 +149,16 @@ canonifyURLs = true
   size = "A4"
   medium = "Watercolour"
   year = "2017"
+
+[[params.portfolio2]]
+  name = "OLN Wolf"
+  alt = "A painting of the 'Let Light Overcome' album cover, by 'Our Last Night'."
+  filename = "oln-wolf"
+  extension = "jpg"
+  id = "olnWolf"
+  size = "15cm &times; 15cm"
+  medium = "Acrylic"
+  year = "2020"
 
 [[params.portfolio2]]
   name = "Scar"
@@ -160,6 +200,16 @@ canonifyURLs = true
   medium = "Acrylic"
   year = "2020"
 
+[[params.portfolio2]]
+  name = "Cotton Candy Clouds"
+  alt = "A painting of clouds that resemble cotton candy."
+  filename = "cotton-candy-clouds"
+  extension = "jpg"
+  id = "cottonCandyClouds"
+  size = "17.5cm &times; 25.5cm"
+  medium = "Gouache"
+  year = "2020"
+
 
 # Portfolio column 3
 
@@ -172,6 +222,16 @@ canonifyURLs = true
   size = "35.5cm &times; 25cm"
   medium = "Acrylic"
   year = "2018"
+
+[[params.portfolio3]]
+  name = "Forest Walk"
+  alt = "A painting of a path leading into the woods."
+  filename = "forest-walk"
+  extension = "jpg"
+  id = "forestWalk"
+  size = "13cm &times; 20.5cm"
+  medium = "Acrylic"
+  year = "2020"
 
 [[params.portfolio3]]
   name = "Alpine Lake"
@@ -222,3 +282,23 @@ canonifyURLs = true
   size = "9cm &times; 7cm"
   medium = "Acrylic"
   year = "2018"
+
+[[params.portfolio3]]
+  name = "Palm Dreams"
+  alt = "A painting of a palm tree on a beach after sunset."
+  filename = "palm-dreams"
+  extension = "jpg"
+  id = "palmDreams"
+  size = "20.5cm &times; 13cm"
+  medium = "Acrylic"
+  year = "2020"
+
+[[params.portfolio3]]
+  name = "Soft Skies"
+  alt = "A painting of whispy clouds at sunset."
+  filename = "soft-skies"
+  extension = "jpg"
+  id = "softSkies"
+  size = "20.5cm &times; 17.5cm"
+  medium = "Gouache"
+  year = "2020"
