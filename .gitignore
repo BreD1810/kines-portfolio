@@ -33,3 +33,6 @@ hugo.darwin
 hugo.linux
 
 # End of https://www.gitignore.io/api/hugo,code
+
+/static/img/*
+/imgs.zip
