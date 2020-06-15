@@ -4,6 +4,12 @@ title = "Kine's Art"
 baseurl = "https://kinesart.com"
 canonifyURLs = true
 
+# New renderer - needed to make inline HTML work
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [params]
   name = "Kristine Linnea"
   description = "Traditional Artist"
