@@ -25,11 +25,18 @@
 
                 -->
                 <ul>
-                    <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-                    <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-                    <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-                    <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Commissions | Contact</span></a></li>
-                    <li><a href="/tour-of-norway" class="skel-layers-ignoreHref"><span class="icon fa-map">Tour of Norway</span></a></li>
+                    <!-- https://gohugo.io/templates/introduction/ -->
+                    <!-- https://discourse.gohugo.io/t/how-to-check-for-home-page/149/3 -->
+                    {{ if .IsHome }}
+                        <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                        <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+                        <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+                        <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Commissions | Contact</span></a></li>
+                        <li><a href="/tour-of-norway" id="tour-link" class="skel-layers-ignoreHref"><span class="icon fa-map">Tour of Norway</span></a></li>
+                    {{ else }}
+                        <li><a href="/" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Homepage</span></a></li>
+                        <li><a href="/tour-of-norway" id="tour-link" class="skel-layers-ignoreHref active"><span class="icon fa-map">Tour of Norway</span></a></li>
+                    {{ end }}
                 </ul>
             </nav>
     </div>
