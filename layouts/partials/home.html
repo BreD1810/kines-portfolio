@@ -1,0 +1,189 @@
+<!-- Intro -->
+<section id="top" class="one dark cover">
+	<div class="container">
+
+		<header>
+			<h2 class="alt"><strong>Hi, I'm Kine</strong>!</h2>
+			<p><strong>Welcome to my portfolio.</strong></p>
+		</header>
+
+		<footer>
+			<a href="#contact" class="button scrolly">Order a Commission</a>
+		</footer>
+
+	</div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="two">
+	<div class="container">
+
+		<header>
+			<h2>Portfolio</h2>
+		</header>
+
+		<div class="row">
+			<div class="4u 12u$(mobile)">
+				{{ range .Site.Params.portfolio1 }}
+				<article class="item">
+					<a class="image fit clickable"><img
+							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
+							alt="{{ .alt }}" id="{{ .id }}" /></a>
+					<header>
+						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
+					</header>
+				</article>
+
+
+				<div id="{{ .id }}Modal" class="modal">
+					<img class="modal-content" id="{{ .id }}ModalImg" />
+					<div id="{{ .id }}Caption" class="caption"></div>
+				</div>
+
+
+				<script>
+					var modal = document.getElementById("{{ .id }}Modal");
+					var img = document.getElementById("{{ .id }}");
+					var modalImg = document.getElementById("{{ .id }}ModalImg");
+					var captionText = document.getElementById("{{ .id }}Caption");
+					img.onclick = function () {
+						modal.style.display = "block";
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }}";
+					}
+					modal.onclick = function () {
+						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
+					}
+				</script>
+				{{ end }}
+			</div>
+
+
+			<div class="4u 12u$(mobile)">
+				{{ range .Site.Params.portfolio2 }}
+				<article class="item">
+					<a class="image fit clickable"><img
+							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
+							alt="{{ .alt }}" id="{{ .id }}" /></a>
+					<header>
+						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
+					</header>
+				</article>
+
+				<div id="{{ .id }}Modal" class="modal">
+					<img class="modal-content" id="{{ .id }}ModalImg" />
+					<div id="{{ .id }}Caption" class="caption"></div>
+				</div>
+
+				<script>
+					var modal = document.getElementById("{{ .id }}Modal");
+					var img = document.getElementById("{{ .id }}");
+					var modalImg = document.getElementById("{{ .id }}ModalImg");
+					var captionText = document.getElementById("{{ .id }}Caption");
+					img.onclick = function () {
+						modal.style.display = "block";
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }}";
+					}
+					modal.onclick = function () {
+						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
+					}
+				</script>
+
+				{{ end }}
+			</div>
+
+			<div class="4u 12u$(mobile)">
+				{{ range .Site.Params.portfolio3 }}
+				<article class="item">
+					<a class="image fit clickable"><img
+							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
+							alt="{{ .alt }}" id="{{ .id }}" /></a>
+					<header>
+						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
+					</header>
+				</article>
+
+				<div id="{{ .id }}Modal" class="modal">
+					<img class="modal-content" id="{{ .id }}ModalImg" />
+					<div id="{{ .id }}Caption" class="caption"></div>
+				</div>
+
+				<script>
+					var modal = document.getElementById("{{ .id }}Modal");
+					var img = document.getElementById("{{ .id }}");
+					var modalImg = document.getElementById("{{ .id }}ModalImg");
+					var captionText = document.getElementById("{{ .id }}Caption");
+					img.onclick = function () {
+						modal.style.display = "block";
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }}";
+					}
+					modal.onclick = function () {
+						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
+					}
+				</script>
+
+				{{ end }}
+			</div>
+		</div>
+
+
+	</div>
+</section>
+
+<!-- About Me -->
+<section id="about" class="three">
+	<div class="container">
+
+		<header>
+			<h2>About Me</h2>
+		</header>
+
+		<a class="image featured"><img src="img/about.jpg" alt="" id="aboutImg" /></a>
+
+		<p>I'm a 20 year old traditional artist based in Norway.
+			I mostly paint landscapes and scenery, but I try to experiment here and there.<br>
+			My preferred medium is acrylic, but I also enjoy watercolour and gouache.</p>
+
+	</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="four">
+	<div class="container">
+
+		<header>
+			<h2>Commissions &mdash; Contact Me</h2>
+		</header>
+
+		<p style="margin-bottom: 5px;">
+			I am taking commissions!
+			Let me know what you have in mind, and we can discuss further.
+			Reference photos are always welcome!
+		</p>
+
+		<p>Feel free to get in touch below or through <a
+				href="https://discordapp.com/users/110810800104448000">discord</a>.</p>
+
+		<form method="post" action="https://formspree.io/mjvoqboy">
+			<div class="row">
+				<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" required /></div>
+				<div class="6u$ 12u$(mobile)"><input type="email" name="email" placeholder="Email" required /></div>
+				<div class="12u$">
+					<textarea name="message" placeholder="Message" required></textarea>
+				</div>
+				<div class="12u$">
+					<input type="submit" value="Send Message" />
+				</div>
+			</div>
+		</form>
+
+	</div>
+</section>

@@ -1,6 +1,7 @@
 # Kine's Portfolio Website
 
 This is a small portfolio website for an artist looking for commissions.
+It is based upon the [Prologue theme](https://github.com/sethmacleod/prologue).
 
 ## Building the Website
 
