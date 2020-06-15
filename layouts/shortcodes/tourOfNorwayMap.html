@@ -7,12 +7,12 @@
 		id: 'mapbox/streets-v11',
 		tileSize: 512,
 		zoomOffset: -1,
-		accessToken: 'pk.eyJ1IjoiYnJlZDE4MTAiLCJhIjoiY2tiZ2t2ZHZxMTBwbTJ0cDI1aTJ3MnV2NSJ9.Z2Ba7mk2mlu0hirjEJyjag'
+		accessToken: '{{ .Site.Params.mapboxkey }}'
 	}).addTo(norwayMap);
 	{{ range .Site.Params.marker }}
 		</script>
 
-		<div id="{{ .id}}MapModal" class="modal">
+		<div id="{{ .id }}MapModal" class="modal">
 			<img class="modal-content" id="{{ .id }}MapModalImg" />
 			<div id="{{ .id }}MapCaption" class="caption"></div>
 		</div>

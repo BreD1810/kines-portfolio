@@ -17,6 +17,7 @@ canonifyURLs = true
   maintainer = "Bradley Garrod"
   imagefolder = "img"
   tourfolder = "img/tour-of-norway"
+  mapboxkey = ""
 
 
 [[params.social]]
