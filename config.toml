@@ -16,6 +16,7 @@ canonifyURLs = true
   maintainerURL = "https://bredley.co.uk/"
   maintainer = "Bradley Garrod"
   imagefolder = "img"
+  tourfolder = "img/tour-of-norway"
 
 
 [[params.social]]
@@ -307,3 +308,16 @@ canonifyURLs = true
   size = "20.5cm &times; 17.5cm"
   medium = "Gouache"
   year = "2020"
+
+
+# Norway Tour Markers
+
+[[ params.marker ]]
+  id = "bokeskogen"
+  location = "Bøkeskogen, Larvik"
+  medium = "Gouache"
+  size = "20.5cm &times; 18.5cm"
+  filename = "bokeskogen"
+  extension = "jpg"
+  x = 59.0571
+  y = 10.0260
