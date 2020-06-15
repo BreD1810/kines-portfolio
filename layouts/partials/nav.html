@@ -29,18 +29,18 @@
                     <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
                     <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
                     <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Commissions | Contact</span></a></li>
+                    <li><a href="/tour-of-norway" class="skel-layers-ignoreHref"><span class="icon fa-map">Tour of Norway</span></a></li>
                 </ul>
             </nav>
-
     </div>
 
     <div class="bottom">
 
         <!-- Social Icons -->
             <ul class="icons">
-  {{ range .Site.Params.social }}
-  <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
-  {{ end }}
+                {{ range .Site.Params.social }}
+                    <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+                {{ end }}
             </ul>
 
     </div>
