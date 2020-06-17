@@ -1,5 +1,7 @@
 # Kine's Portfolio Website
 
+[![pipeline status](https://gitlab.com/BreD1810/kines-portfolio/badges/master/pipeline.svg)](https://gitlab.com/BreD1810/kines-portfolio/-/commits/master)
+
 This is a small portfolio website for an artist looking for commissions.
 It is based upon the [Prologue theme](https://github.com/sethmacleod/prologue).
 
