@@ -1,0 +1,125 @@
+<section id="portfolio" class="two">
+	<div class="container">
+
+		<header>
+			<h2>Paintings For Sale</h2>
+		</header>
+
+		<div class="row">
+			<div class="4u 12u$(mobile)">
+				{{ range .Site.Params.sale1 }}
+				<article class="item clickable" id="{{ .id }}">
+					<a class="image fit"><img
+							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
+							alt="{{ .alt }}" /></a>
+					<header>
+                        <h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
+                        <h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+					</header>
+				</article>
+
+
+				<div id="{{ .id }}Modal" class="modal">
+					<img class="modal-content" id="{{ .id }}ModalImg" />
+					<div id="{{ .id }}Caption" class="caption"></div>
+				</div>
+
+
+				<script>
+					var modal = document.getElementById("{{ .id }}Modal");
+					var img = document.getElementById("{{ .id }}");
+					var modalImg = document.getElementById("{{ .id }}ModalImg");
+					var captionText = document.getElementById("{{ .id }}Caption");
+					img.onclick = function () {
+						modal.style.display = "block";
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ $.Site.Params.currency }}{{ .price }}";
+					}
+					modal.onclick = function () {
+						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
+					}
+				</script>
+				{{ end }}
+			</div>
+
+
+			<div class="4u 12u$(mobile)">
+				{{ range .Site.Params.sale2 }}
+				<article class="item clickable" id="{{ .id }}">
+					<a class="image fit"><img
+							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
+							alt="{{ .alt }}" /></a>
+					<header>
+                        <h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
+                        <h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+					</header>
+				</article>
+
+				<div id="{{ .id }}Modal" class="modal">
+					<img class="modal-content" id="{{ .id }}ModalImg" />
+					<div id="{{ .id }}Caption" class="caption"></div>
+				</div>
+
+				<script>
+					var modal = document.getElementById("{{ .id }}Modal");
+					var img = document.getElementById("{{ .id }}");
+					var modalImg = document.getElementById("{{ .id }}ModalImg");
+					var captionText = document.getElementById("{{ .id }}Caption");
+					img.onclick = function () {
+						modal.style.display = "block";
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ $.Site.Params.currency }}{{ .price }}";
+					}
+					modal.onclick = function () {
+						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
+					}
+				</script>
+
+				{{ end }}
+			</div>
+
+			<div class="4u 12u$(mobile)">
+				{{ range .Site.Params.sale3 }}
+				<article class="item clickable" id="{{ .id }}">
+					<a class="image fit"><img
+							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
+							alt="{{ .alt }}" /></a>
+					<header>
+                        <h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
+                        <h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+					</header>
+				</article>
+
+				<div id="{{ .id }}Modal" class="modal">
+					<img class="modal-content" id="{{ .id }}ModalImg" />
+					<div id="{{ .id }}Caption" class="caption"></div>
+				</div>
+
+				<script>
+					var modal = document.getElementById("{{ .id }}Modal");
+					var img = document.getElementById("{{ .id }}");
+					var modalImg = document.getElementById("{{ .id }}ModalImg");
+					var captionText = document.getElementById("{{ .id }}Caption");
+					img.onclick = function () {
+						modal.style.display = "block";
+						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.{{ .extension }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ $.Site.Params.currency }}{{ .price }}";
+					}
+					modal.onclick = function () {
+						modal.style.display = "none";
+						modalImg.src = "";
+						captionText.innerHTML = "";
+					}
+				</script>
+
+				{{ end }}
+			</div>
+		</div>
+
+
+	</div>
+</section>

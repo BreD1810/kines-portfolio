@@ -18,6 +18,7 @@ canonifyURLs = true
   imagefolder = "img"
   tourfolder = "img/tour-of-norway"
   mapboxkey = ""
+  currency = "£"
 
 
 [[params.social]]
@@ -310,6 +311,41 @@ canonifyURLs = true
   medium = "Gouache"
   year = "2020"
 
+
+# Paintings for sale
+
+[[params.sale1]]
+  name = "Soft Skies"
+  alt = "A painting of whispy clouds at sunset."
+  filename = "soft-skies"
+  extension = "jpg"
+  id = "softSkies"
+  size = "20.5cm &times; 17.5cm"
+  medium = "Gouache"
+  year = "2020"
+  price = "19.99"
+
+[[params.sale2]]
+  name = "Palm Dreams"
+  alt = "A painting of a palm tree on a beach after sunset."
+  filename = "palm-dreams"
+  extension = "jpg"
+  id = "palmDreams"
+  size = "20.5cm &times; 13cm"
+  medium = "Acrylic"
+  year = "2020"
+  price = "30.00"
+
+[[params.sale3]]
+  name = "A Pinch of Springtime"
+  alt = "A miniature painting of Bob Ross' \"Hint of Springtime\""
+  filename = "pinch-of-springtime"
+  extension = "jpg"
+  id = "springtime"
+  size = "9cm &times; 7cm"
+  medium = "Acrylic"
+  year = "2018"
+  price = "55.50"
 
 # Norway Tour Markers
 
