@@ -315,6 +315,17 @@ canonifyURLs = true
 # Paintings for sale
 
 [[params.sale1]]
+  name = "Misty Mountains"
+  alt = "A painting of a sunset with big clouds and distant mountains."
+  filename = "misty-mountains"
+  extension = "jpg"
+  id = "mistyMountains"
+  size = "17cm &times; 25.5cm"
+  medium = "Gouache"
+  year = "2020"
+  price = "65.00"
+
+[[params.sale2]]
   name = "Soft Skies"
   alt = "A painting of whispy clouds at sunset."
   filename = "soft-skies"
@@ -323,29 +334,19 @@ canonifyURLs = true
   size = "20.5cm &times; 17.5cm"
   medium = "Gouache"
   year = "2020"
-  price = "19.99"
-
-[[params.sale2]]
-  name = "Palm Dreams"
-  alt = "A painting of a palm tree on a beach after sunset."
-  filename = "palm-dreams"
-  extension = "jpg"
-  id = "palmDreams"
-  size = "20.5cm &times; 13cm"
-  medium = "Acrylic"
-  year = "2020"
-  price = "30.00"
+  price = "60.00"
 
 [[params.sale3]]
-  name = "A Pinch of Springtime"
-  alt = "A miniature painting of Bob Ross' \"Hint of Springtime\""
-  filename = "pinch-of-springtime"
+  name = "Cotton Candy Clouds"
+  alt = "A painting of clouds that resemble cotton candy."
+  filename = "cotton-candy-clouds"
   extension = "jpg"
-  id = "springtime"
-  size = "9cm &times; 7cm"
-  medium = "Acrylic"
-  year = "2018"
-  price = "55.50"
+  id = "cottonCandyClouds"
+  size = "17.5cm &times; 25.5cm"
+  medium = "Gouache"
+  year = "2020"
+  price = "60.00"
+
 
 # Norway Tour Markers
 
