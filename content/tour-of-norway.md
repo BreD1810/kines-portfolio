@@ -1,7 +1,7 @@
 +++
 title = "Tour of Norway"
-description = "About Bradley Garrod"
-keywords = "About"
+description = "Paintings from around Norway!"
+keywords = "Tour of norway"
 slug = "tour-of-norway"
 +++
 
