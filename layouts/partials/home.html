@@ -25,10 +25,10 @@
 		<div class="row">
 			<div class="4u 12u$(mobile)">
 				{{ range .Site.Params.portfolio1 }}
-				<article class="item">
-					<a class="image fit clickable"><img
+				<article class="item clickable" id="{{ .id }}">
+					<a class="image fit"><img
 							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
-							alt="{{ .alt }}" id="{{ .id }}" /></a>
+							alt="{{ .alt }}" /></a>
 					<header>
 						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
 					</header>
@@ -63,10 +63,10 @@
 
 			<div class="4u 12u$(mobile)">
 				{{ range .Site.Params.portfolio2 }}
-				<article class="item">
-					<a class="image fit clickable"><img
+				<article class="item clickable" id="{{ .id }}">
+					<a class="image fit"><img
 							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
-							alt="{{ .alt }}" id="{{ .id }}" /></a>
+							alt="{{ .alt }}" /></a>
 					<header>
 						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
 					</header>
@@ -99,10 +99,10 @@
 
 			<div class="4u 12u$(mobile)">
 				{{ range .Site.Params.portfolio3 }}
-				<article class="item">
-					<a class="image fit clickable"><img
+				<article class="item clickable" id="{{ .id }}">
+					<a class="image fit"><img
 							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.{{ .extension }}"
-							alt="{{ .alt }}" id="{{ .id }}" /></a>
+							alt="{{ .alt }}" /></a>
 					<header>
 						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
 					</header>
