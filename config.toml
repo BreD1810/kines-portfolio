@@ -20,6 +20,10 @@ canonifyURLs = true
   mapboxkey = ""
   currency = "£"
 
+[[params.social]]
+  medium = "store"
+  icon = "shopping-cart"
+  link = "https://www.redbubble.com/people/KinesArt/explore"
 
 [[params.social]]
   medium = "youtube"
