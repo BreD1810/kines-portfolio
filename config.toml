@@ -21,11 +21,6 @@ canonifyURLs = true
   currency = "£"
 
 [[params.social]]
-  medium = "store"
-  icon = "shopping-cart"
-  link = "https://www.redbubble.com/people/KinesArt/explore"
-
-[[params.social]]
   medium = "youtube"
   icon = "youtube"
   link = "https://www.youtube.com/playlist?list=PLV_HbQSACXpI99Yhv0-ir8zz0L89Q8eEK"
@@ -53,57 +48,66 @@ canonifyURLs = true
   name = "Lord of the Rings"
   alt = "A painting of Gandalf and Frodo overlooking Rivendell."
   filename = "lotr"
-  extension = "jpg"
   id = "lotr"
   size = "A3"
   medium = "Acrylic"
   year = "2020"
+  main = true
+
+[[params.portfolio1]]
+  name = "Minnie"
+  alt = "My boyfriend's dog gazing into the distance."
+  filename = "minnie"
+  id = "minnie"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2020"
+  main = true
 
 [[params.portfolio1]]
   name = "Magical Mushroom"
   alt = "A painting of a mushroom in a forest."
   filename = "magical-mushroom"
-  extension = "jpg"
   id = "magicalMushroom"
   size = "13cm &times; 20.5cm"
   medium = "Gouache"
   year = "2020"
+  main = true
 
 [[params.portfolio1]]
   name = "Brother Bear"
   alt = "A painting of Koda and Kenai looking at the Northern Lights."
   filename = "brother-bear"
-  extension = "jpg"
   id = "brotherBear"
   size = "35.5cm &times; 25cm"
   medium = "Gouache"
   year = "2018"
+  main = false
 
 [[params.portfolio1]]
   name = "Evening Stroll"
   alt = "A painting of Koda and Kenai looking at the Northern Lights."
   filename = "evening-stroll"
-  extension = "jpg"
   id = "eveningStroll"
   size = "20.5cm &times; 13cm"
   medium = "Gouache"
   year = "2020"
+  main = false
 
 [[params.portfolio1]]
   name = "Evening Breeze"
   alt = "A painting of a Dutch coastline, featuring a windmill."
   filename = "evening-breeze"
-  extension = "jpg"
   id = "eveningBreeze"
   size = "30Cm &times; 30cm"
   medium = "Acrylic"
   year = "2020"
+  main = true
 
 [[params.portfolio1]]
   name = "Peeking Mountain"
   alt = "A mountain top peeking through the trees."
   filename = "peeking-mountain"
-  extension = "jpg"
   id = "peekingMountain"
   size = "20.5cm &times; 13cm"
   medium = "Gouache"
@@ -113,114 +117,134 @@ canonifyURLs = true
   name = "Tropical Gaze"
   alt = "A painting of a mountain top peaking through the trees."
   filename = "tropical-gaze"
-  extension = "jpg"
   id = "tropicalGaze"
   size = "20.5cm &times; 13cm"
   medium = "Watercolour"
   year = "2016"
+  main = false
 
 [[params.portfolio1]]
   name = "Misty Mountains"
   alt = "A painting of a sunset with big clouds and distant mountains."
   filename = "misty-mountains"
-  extension = "jpg"
   id = "mistyMountains"
   size = "17cm &times; 25.5cm"
   medium = "Gouache"
   year = "2020"
+  main = true
 
 [[params.portfolio1]]
   name = "Sunny Days"
   alt = "A painting of an Australian beach with palm trees."
   filename = "sunny-days"
-  extension = "jpg"
   id = "sunnyDays"
   size = "13cm &times; 20.5cm"
   medium = "Gouache"
   year = "2020"
+  main = false
 
 
 # Portfolio column two
 
 [[params.portfolio2]]
+  name = "Northern Nights"
+  alt = "A Norwegian cabin on a winter night, surrounded by mountains, with the northern lights above."
+  filename = "northern-nights"
+  id = "northernNights"
+  size = "A3"
+  medium = "Acrylic"
+  year = "2020"
+  main = true
+
+[[params.portfolio2]]
   name = "Happy Panda"
   alt = "A painting of a Panda eating bamboo."
   filename = "happy-panda"
-  extension = "jpg"
   id = "panda"
   size = "A3"
   medium = "Acrylic"
   year = "2020"
+  main = true
+
+[[params.portfolio2]]
+  name = "Hidden Falls"
+  alt = "A hidden waterfall surrounded by mossy mountains."
+  filename = "hidden-falls"
+  id = "hiddenFalls"
+  size = "20.5cm &times; 13cm"
+  medium = "Gouache"
+  year = "2020"
+  main = false
 
 [[params.portfolio2]]
   name = "Lightly Dusted"
   alt = "A painting pinecone lightly dusted with snow."
   filename = "lightly-dusted"
-  extension = "jpg"
   id = "lightlyDusted"
   size = "A4"
   medium = "Watercolour"
   year = "2017"
+  main = true
 
 [[params.portfolio2]]
   name = "Let Light Overcome"
   alt = "A painting of the 'Let Light Overcome' album cover, by 'Our Last Night'."
   filename = "oln-wolf"
-  extension = "jpg"
   id = "olnWolf"
   size = "15cm &times; 15cm"
   medium = "Acrylic"
   year = "2020"
+  main = true
 
 [[params.portfolio2]]
   name = "Scar"
   alt = "A painting of Scar from The Lion King."
   filename = "scar"
-  extension = "jpg"
   id = "scar"
   size = "A3"
   medium = "Acrylic"
   year = "2019"
+  main = false
 
 [[params.portfolio2]]
   name = "Handsome Jack"
   alt = "A painting of Handsome Jack from the Borderlands series."
   filename = "handsome-jack"
-  extension = "jpg"
   id = "handsomeJack"
   size = "A3"
   medium = "Acrylic"
   year = "2019"
+  main = false
 
 [[params.portfolio2]]
   name = "Lonely Boat"
   alt = "A painting sail boat."
   filename = "lonely-boat"
-  extension = "jpg"
   id = "lonelyBoat"
   size = "A4"
   medium = "Acrylic"
   year = "2018"
+  main = false
 
 [[params.portfolio2]]
   name = "Kraken's Cave"
   alt = "A painting of a Kraken in a cave."
   filename = "krakens-cave"
-  extension = "jpg"
   id = "krakensCave"
   size = "A3"
   medium = "Acrylic"
   year = "2020"
+  main = true
 
 [[params.portfolio2]]
   name = "Cotton Candy Clouds"
   alt = "A painting of clouds that resemble cotton candy."
   filename = "cotton-candy-clouds"
-  extension = "jpg"
   id = "cottonCandyClouds"
   size = "17.5cm &times; 25.5cm"
   medium = "Gouache"
   year = "2020"
+  main = false
 
 
 # Portfolio column 3
@@ -229,91 +253,101 @@ canonifyURLs = true
   name = "Neuschwanstein"
   alt = "A painting of the Neuschwanstein castle, with a sunset in the background."
   filename = "neuschwanstein"
-  extension = "jpg"
   id = "neuschwanstein"
   size = "35.5cm &times; 25cm"
   medium = "Acrylic"
   year = "2018"
+  main = true
+
+[[params.portfolio3]]
+  name = "Bonfire Evening"
+  alt = "A cosy bonfire in the woods during a late autumn afternoon."
+  filename = "bonfire-evening"
+  id = "bonfireEvening"
+  size = "13cm &times; 20.5cm"
+  medium = "Gouache"
+  year = "2020"
+  main = true
 
 [[params.portfolio3]]
   name = "Forest Walk"
   alt = "A painting of a path leading into the woods."
   filename = "forest-walk"
-  extension = "jpg"
   id = "forestWalk"
   size = "13cm &times; 20.5cm"
   medium = "Acrylic"
   year = "2020"
+  main = false
 
 [[params.portfolio3]]
   name = "Alpine Lake"
   alt = "A painting of Alpine Lake."
   filename = "alpine-lake"
-  extension = "jpg"
   id = "alpineLake"
   size = "35.5cm &times; 25cm"
   medium = "Acrylic"
   year = "2018"
+  main = false
 
 [[params.portfolio3]]
   name = "Autumn Afternoon"
   alt = "A painting of an autumn scene with a river running through the middle."
   filename = "autumn-afternoon"
-  extension = "jpg"
   id = "autumnAfternoon"
   size = "20.5cm &times; 13cm"
   medium = "Gouache"
   year = "2019"
+  main = true
 
 [[params.portfolio3]]
   name = "Strutting Stallion"
   alt = "A painting of a horse in a field."
   filename = "strutting-stallion"
-  extension = "jpg"
   id = "struttingStallion"
   size = "A3"
   medium = "Acrylic"
   year = "2020"
+  main = false
 
 [[params.portfolio3]]
   name = "Sculpture"
   alt = "A pencil sketch of a sculpture."
   filename = "sculpture"
-  extension = "jpg"
   id = "sculpture"
   size = "A2"
   medium = "Pencil"
   year = "2017"
+  main = false
 
 [[params.portfolio3]]
   name = "A Pinch of Springtime"
   alt = "A miniature painting of Bob Ross' \"Hint of Springtime\""
   filename = "pinch-of-springtime"
-  extension = "jpg"
   id = "springtime"
   size = "9cm &times; 7cm"
   medium = "Acrylic"
   year = "2018"
+  main = true
 
 [[params.portfolio3]]
   name = "Palm Dreams"
   alt = "A painting of a palm tree on a beach after sunset."
   filename = "palm-dreams"
-  extension = "jpg"
   id = "palmDreams"
   size = "20.5cm &times; 13cm"
   medium = "Acrylic"
   year = "2020"
+  main = true
 
 [[params.portfolio3]]
   name = "Soft Skies"
   alt = "A painting of whispy clouds at sunset."
   filename = "soft-skies"
-  extension = "jpg"
   id = "softSkies"
   size = "20.5cm &times; 17.5cm"
   medium = "Gouache"
   year = "2020"
+  main = false
 
 
 # Paintings for sale
@@ -322,7 +356,6 @@ canonifyURLs = true
   name = "Misty Mountains"
   alt = "A painting of a sunset with big clouds and distant mountains."
   filename = "misty-mountains"
-  extension = "jpg"
   id = "mistyMountains"
   size = "17cm &times; 25.5cm"
   medium = "Gouache"
@@ -333,7 +366,6 @@ canonifyURLs = true
   name = "Soft Skies"
   alt = "A painting of whispy clouds at sunset."
   filename = "soft-skies"
-  extension = "jpg"
   id = "softSkies"
   size = "20.5cm &times; 17.5cm"
   medium = "Gouache"
@@ -344,7 +376,6 @@ canonifyURLs = true
   name = "Cotton Candy Clouds"
   alt = "A painting of clouds that resemble cotton candy."
   filename = "cotton-candy-clouds"
-  extension = "jpg"
   id = "cottonCandyClouds"
   size = "17.5cm &times; 25.5cm"
   medium = "Gouache"
@@ -360,6 +391,5 @@ canonifyURLs = true
   medium = "Gouache"
   size = "20.5cm &times; 18.5cm"
   filename = "bokeskogen"
-  extension = "jpg"
   x = 59.0571
   y = 10.0260

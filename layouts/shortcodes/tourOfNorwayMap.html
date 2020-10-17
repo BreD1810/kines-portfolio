@@ -23,7 +23,7 @@
 			var captionText = document.getElementById("{{ .id }}MapCaption");
 			L.marker([{{ .x }}, {{ .y }}]).addTo(norwayMap).on('click', function(e) {
 				modal.style.display = "block";
-				modalImg.src = "{{ $.Site.Params.tourfolder }}/{{ .filename }}.{{ .extension }}";
+				modalImg.src = "{{ $.Site.Params.tourfolder }}/{{ .filename }}.jpg";
 				captionText.innerHTML = "{{ .location }} &ndash; {{ .medium }} &ndash; {{ .size }}";
 			});
 			modal.onclick = function () {
