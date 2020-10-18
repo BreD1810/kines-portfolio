@@ -9,14 +9,18 @@
 
 		<div class="row">
 			<div class="4u 12u$(mobile)">
-				{{ range .Site.Params.sale1 }}
+				{{ range $entry := .Site.Params.sale1 }}
 				<article class="item clickable" id="{{ .id }}">
 					<a class="image fit"><img
 							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.jpg"
 							alt="{{ .alt }}" /></a>
 					<header>
                         <h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
-                        <h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+						{{ if $entry.price }}
+							<h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+						{{ else }}
+							<h3>SOLD</h3>
+						{{ end }}
 					</header>
 				</article>
 
@@ -35,7 +39,7 @@
 					img.onclick = function () {
 						modal.style.display = "block";
 						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.jpg";
-						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ $.Site.Params.currency }}{{ .price }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ if $entry.price }} {{ $.Site.Params.currency }}{{ .price }} {{ else }} SOLD {{ end }}";
 					}
 					modal.onclick = function () {
 						modal.style.display = "none";
@@ -48,14 +52,18 @@
 
 
 			<div class="4u 12u$(mobile)">
-				{{ range .Site.Params.sale2 }}
+				{{ range $entry := .Site.Params.sale2 }}
 				<article class="item clickable" id="{{ .id }}">
 					<a class="image fit"><img
 							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.jpg"
 							alt="{{ .alt }}" /></a>
 					<header>
-                        <h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
-                        <h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+						<h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
+						{{ if $entry.price }}
+							<h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+						{{ else }}
+							<h3>SOLD</h3>
+						{{ end }}
 					</header>
 				</article>
 
@@ -72,7 +80,7 @@
 					img.onclick = function () {
 						modal.style.display = "block";
 						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.jpg";
-						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ $.Site.Params.currency }}{{ .price }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ if $entry.price }} {{ $.Site.Params.currency }}{{ .price }} {{ else }} SOLD {{ end }}";
 					}
 					modal.onclick = function () {
 						modal.style.display = "none";
@@ -85,14 +93,18 @@
 			</div>
 
 			<div class="4u 12u$(mobile)">
-				{{ range .Site.Params.sale3 }}
+				{{ range $entry := .Site.Params.sale3 }}
 				<article class="item clickable" id="{{ .id }}">
 					<a class="image fit"><img
 							src="{{ $.Site.Params.imagefolder }}/{{ .filename }}_thumb.jpg"
 							alt="{{ .alt }}" /></a>
 					<header>
                         <h3>"{{ .name }}" - {{ .medium }} - {{ .year }}</h3>
-                        <h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+						{{ if $entry.price }}
+							<h3>{{ $.Site.Params.currency }}{{ .price }}</h3>
+						{{ else }}
+							<h3>SOLD</h3>
+						{{ end }}
 					</header>
 				</article>
 
@@ -109,7 +121,7 @@
 					img.onclick = function () {
 						modal.style.display = "block";
 						modalImg.src = "{{ $.Site.Params.imagefolder }}/{{ .filename }}.jpg";
-						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ $.Site.Params.currency }}{{ .price }}";
+						captionText.innerHTML = "\"{{ .name }}\" &ndash; {{ .medium }} &ndash; {{ .year }} &ndash; {{ .size }} &ndash; {{ if $entry.price }} {{ $.Site.Params.currency }}{{ .price }} {{ else }} SOLD {{ end }}";
 					}
 					modal.onclick = function () {
 						modal.style.display = "none";
