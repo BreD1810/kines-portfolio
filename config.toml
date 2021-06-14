@@ -65,6 +65,16 @@ canonifyURLs = true
   main = true
 
 [[params.portfolio1]]
+  name = "Spring Feeling"
+  alt = "A small river flowing through a meadow"
+  filename = "spring-feeling"
+  id = "springFeeling"
+  size = "20.5cm &times; 13cm"
+  medium = "Gouache"
+  year = "2021"
+  main = true
+
+[[params.portfolio1]]
   name = "Magical Mushroom"
   alt = "A painting of a mushroom in a forest."
   filename = "magical-mushroom"
@@ -99,10 +109,20 @@ canonifyURLs = true
   alt = "A painting of a Dutch coastline, featuring a windmill."
   filename = "evening-breeze"
   id = "eveningBreeze"
-  size = "30Cm &times; 30cm"
+  size = "30cm &times; 30cm"
   medium = "Acrylic"
   year = "2020"
   main = true
+
+[[params.portfolio1]]
+  name = "My Neighbour Totoro"
+  alt = "Sunflowers in a field, taking from My Neighbour Totoro"
+  filename = "my-neighbour-totoro"
+  id = "totoro"
+  size = "20.5cm &times; 13cm"
+  medium = "Gouache"
+  year = "2021"
+  main = false
 
 [[params.portfolio1]]
   name = "Peeking Mountain"
@@ -152,6 +172,16 @@ canonifyURLs = true
   filename = "northern-nights"
   id = "northernNights"
   size = "A3"
+  medium = "Acrylic"
+  year = "2020"
+  main = true
+
+[[params.portfolio2]]
+  name = "Autumn Cottage"
+  alt = "A stone cottage in an autumn forest."
+  filename = "autumn-cottage"
+  id = "autumnCottage"
+  size = "30cm &times; 30cm"
   medium = "Acrylic"
   year = "2020"
   main = true
@@ -297,6 +327,16 @@ canonifyURLs = true
   size = "20.5cm &times; 13cm"
   medium = "Gouache"
   year = "2019"
+  main = true
+
+[[params.portfolio3]]
+  name = "Winter Wonderland"
+  alt = "Small house in a blue winter world."
+  filename = "winter-wonderland"
+  id = "winterWonderland"
+  size = "30cm &times; 24cm"
+  medium = "Acrylic"
+  year = "2021"
   main = true
 
 [[params.portfolio3]]
