@@ -392,3 +392,12 @@ canonifyURLs = true
   filename = "bokeskogen"
   x = 59.0571
   y = 10.0260
+
+[[ params.marker ]]
+  id = "biriBeach"
+  location = "Biristrand Camping, Biristrand"
+  medium = "Gouache"
+  size = "20.5cm &times; 18.5cm"
+  filename = "biri-beach"
+  x = 61.02383
+  y = 10.45327
